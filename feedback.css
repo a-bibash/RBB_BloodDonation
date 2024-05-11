@@ -1,0 +1,48 @@
+
+.feedback{
+    border: 3px solid blueviolet;
+    width: 88%;
+    margin-left: 60px;
+    height: 35em;
+    margin-top: 5px;
+    border-radius: 4px;
+    font-size: bold;
+}
+ h5 {
+        padding: 19px;
+        font-size: 21px;
+        font-style: italic;
+        background-color: blue;
+    }
+    label{
+        font-weight: bolder;
+        margin-left: 90px;
+    }
+ .submitB button{
+        display: block;
+      margin-left: 320px;
+      padding: 7px 56px;
+      margin-top: 6px;
+      font-size: 16px;
+      border-radius: 4px;
+      border-color: aquamarine;
+      }
+    .submitB button:hover{
+          background-color: green;
+          font-size: 20px;
+      }
+      textarea {
+        padding: 35px 0px;
+        margin-top: 15px;
+        width: 197px;
+        height: 149px;
+        border-radius: 9px;
+        border-style: groove;
+        border: 2px solid;
+      }
+      input{
+          padding: 4px 2px;
+          border-color: yellowgreen;
+          border-radius: 3px;
+
+      }

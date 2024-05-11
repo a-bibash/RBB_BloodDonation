@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: dimgrey;
+}
+.signinbox h1 {
+    background-color: blueviolet;
+    padding: 8px;
+}
+h2{
+    text-align: center;
+    margin-top: 4px;
+}
+label {
+    width: 224px;
+    display: inline-block;
+    margin-left: 150px;
+    padding: 7px 43px;
+}
+.form-name input {
+    padding: 11px 15px;
+    border-radius: 20px;
+    margin: 8px 4px;
+}
+
+select {
+    padding: 12px 2px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid;
+}
+.dob input{
+    width:85px;
+}
+.lob input{
+    width:85px;
+}
+button{
+    border-radius: 7px;
+}
+.submit {
+margin-left: 422px;
+padding: 8px 40px;
+font-size: 16px;
+color:green;
+font-weight: bold;
+}
+.reset{
+margin-left: 20px;
+padding: 8px 40px;
+font-size: 16px;
+font-weight: bold;
+color: red;
+}
+.submit:hover{
+    background-color: green;
+    color: gold;
+}
+.reset:hover{
+    background-color: red;
+    color:white;
+}
+.paragraph{
+    text-align: center;
+    width:900px;
+    margin:10px 0px 10px 8em;
+}
+#nameerror{
+    color: red;
+}
+.star{
+    color: red;
+}

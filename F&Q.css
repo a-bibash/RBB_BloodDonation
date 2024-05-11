@@ -1,0 +1,227 @@
+h1{
+    margin-left: 30px;
+    font-size: 48px;
+    color: gray;
+    font-family: sans-serif;
+}
+.hline{
+    color:blue;
+    background-color: blue;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.fandq p:hover{
+    margin-left: 22px;
+}
+.fandq h3{
+    padding: 20px 2px;
+    margin-left: 5px;
+}
+.fandq a{
+    text-decoration: none;
+    color: black;
+}
+.should {
+    border-left:2px solid ;
+    margin-left: 30px;
+    border-right: none;
+    border-left: none;
+    margin-right: 500px;
+}
+.should:hover{
+    border-left-style: solid;
+    border-left-color: blue;
+    border-left-width: 4px;
+    border-right: none;
+    cursor:pointer;
+}
+.happen {
+    border-left:2px solid ;
+    border-left-color: blue;
+    margin-left: 30px;
+    border-right: none;
+    border-left: none;
+    margin-right: 500px;
+    border-left-width: 4px;
+}
+.happen:hover{
+    border-left-style: solid;
+    border-left-color: blue;
+    border-left-width: 4px;
+    border-right: none;
+    cursor:pointer;
+}
+.much {
+    border-left:2px solid ;
+    border-left-color: blue;
+    border-right: none;
+    margin-left: 30px;
+    border-left: none;
+    margin-right: 500px;
+    border-left-width: 4px;
+}
+.much:hover{
+    border-left-style: solid;
+    border-left-color: blue;
+    border-left-width: 4px;
+    border-right: none;
+    cursor:pointer;
+}
+.safe {
+    border-left:2px solid ;
+    border-left-color: blue;
+    border-left: none;
+    border-right: none;
+    margin-right: 500px;
+    margin-left: 30px;
+    border-left-width: 4px;
+}
+.safe:hover{
+    border-left-style: solid;
+    border-left-color: blue;
+    border-left-width: 4px;
+    border-right: none;
+    cursor:pointer;
+}
+.hurt{
+    border-left:2px solid ;
+    border-left: none;
+    border-right: none;
+    margin-right: 500px;
+    border-left-color: blue;
+    margin-left: 30px;
+    border-left-width: 4px;
+}
+.hurt:hover{
+    border-left-style: solid;
+    border-left-color: blue;
+    border-left-width: 4px;
+    border-right: none;
+    cursor:pointer;
+}
+.give {
+    border-left:2px solid ;
+    border-left-color: blue;
+    margin-left: 30px;
+    border-left: none;
+    border-right: none;
+    margin-right: 500px;
+    border-left-width: 4px;
+}
+.give:hover{
+    border-left-style: solid;
+    border-left-color: blue;
+    border-left-width: 4px;
+    border-right: none;
+    cursor:pointer;
+}
+.shouldnot {
+    border-left:2px solid ;
+    border-left: none;
+    border-right: none;
+    margin-right: 500px;
+    border-left-color: blue;
+    margin-left: 30px;
+    border-left-width: 4px;
+}
+.shouldnot:hover{
+    border-left-style: solid;
+    border-left-color: blue;
+    border-left-width: 4px;
+    border-right: none;
+    cursor:pointer;
+}
+.vaccination {
+    border-left:2px solid ;
+    border-left-color: blue;
+    border-left: none;
+    border-right: none;
+    margin-right: 500px;
+    margin-left: 30px;
+    border-left-width: 4px;
+}
+.vaccination:hover{
+    border-left-style: solid;
+    border-left-color: blue;
+    border-left-width: 4px;
+    border-right: none;
+    cursor:pointer;
+}
+.feel {
+    border-left:2px solid ;
+    border-left-color: blue;
+    border-left: none;
+    border-right: none;
+    margin-right: 500px;
+    margin-left: 30px;
+    border-left-width: 4px;
+}
+.feel:hover{
+    border-left-style: solid;
+    border-left-color: blue;
+    border-left-width: 4px;
+    border-right: none;
+    cursor:pointer;
+}
+.should p{
+    width: 90%;
+    display: none;
+    padding-bottom:6px ;
+}
+ .fas{
+    float: right;
+    margin-top: -53px;
+    margin-right: 16px;
+    font-size: 36px;
+}
+.fas:hover{
+    color: blue;
+}
+.button{
+    float: right;
+}
+.happen p{
+    width: 90%;
+    display: none;
+    padding-bottom:6px ;
+}
+.much p{
+    width: 90%;
+    display: none;
+    padding-bottom:6px ;
+}
+.safe p{
+    width: 90%;
+    display: none;
+    padding-bottom:6px ;
+}
+.hurt p{
+    width: 90%;
+    display: none;
+    padding-bottom:6px ;
+}
+.give p{
+    width: 90%;
+    display: none;
+    padding-bottom:6px ;
+}
+.shouldnot p{
+    width: 90%;
+    display: none;
+    padding-bottom:6px ;
+}
+.shouldnot p ul li{
+    width: 90%;
+    display: none;
+    padding-bottom:6px ;
+}
+.vaccination p{
+    width: 90%;
+    display: none;
+    padding-bottom:6px ;
+}
+.feel p{
+    width: 90%;
+    display: none;
+    padding-bottom:6px ;
+}

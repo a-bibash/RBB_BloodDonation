@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' type='text/css' media='screen' href='dodonate.css'>
+  <title>To donate</title>
+</head>
+<body>
+<div class="form-details">
+<h4>Donation  Form</h4>
+<form  action="connect.php" method="post" id="form">
+  <div class="form-inner">
+    <div class="nameBox">
+<label>Name :</label><input type="text" name="fname" id="fname" required>
+                     <input type="text" name="lname" id="lname" required>
+<span class="namemsg"></span>
+</div>
+                     <div class="date">
+<label>Date of Birth :</label><input type="date" name="dobdate" required>
+                     </div>
+                     <div class="email">
+<label>Email:</label><input type="text" name="email" id="email" required>
+<span class="emailmsg"></span>
+</div>
+<label>Phone Number:</label><input type="number" name="mobile" id="mobile" required>
+<span class="mobilemsg"></span>
+
+<div class="date">
+<label>Last Donate Date:</label><input type="date" name="lobdate" required>
+</div>
+<label>Blood Group :</label><select name="bgroup" id="bgroup" required><option>--Select--</option>
+                    <option>A+</option>
+                    <option>B+</option>
+                    <option>A-</option>
+                    <option>B-</option>
+                    <option>O-</option>
+                    <option>O+</option>
+                    <option>OA-</option></select>
+ <label>Address:</label><input type="text" id="address" name="address"required><br>
+ <span class="addressmsg"></span>
+
+ <button>Donate Blood</button>
+</div>
+</div>
+</form>
+<script>
+     const fname = document.getElementById('fname');
+     const lname = document.getElementById('lname');
+     const email = document.getElementById('email');
+     const mobile =document.getElementById('mobile');
+     const address=document.getElementById('address');
+     fname.addEventListener('input',()=>{
+      const namemsg=document.querySelector('.namemsg');
+      var regex = /^[a-zA-Z ]{2,30}$/;
+      if(!fname.value.match(regex)){
+          namemsg.innerHTML="Name is invalid";
+          namemsg.style.color="red";
+             }
+             else{
+                namemsg.innerHTML="Name is valid";
+                namemsg.style.color="green";
+             }
+    });
+    lname.addEventListener('input',()=>{
+      const namemsg=document.querySelector('.namemsg');
+      var regex = /^[a-zA-Z ]{2,30}$/;
+      if(!lname.value.match(regex)){
+          namemsg.innerHTML="Name is invalid";
+          namemsg.style.color="red";
+             }
+             else{
+                namemsg.innerHTML="Name is valid";
+                namemsg.style.color="green";
+             }
+    });
+    
+    email.addEventListener('input',()=>{
+      const emailmsg=document.querySelector('.emailmsg');
+      let emailpattn = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+
+      if(!email.value.match(emailpattn)){
+          emailmsg.innerHTML="Email address is invalid";
+          emailmsg.style.color="red";
+             }
+             else{
+                emailmsg.innerHTML="Email is valid";
+                emailmsg.style.color="green";
+             }
+    });
+    mobile.addEventListener('input',()=>{
+      const mobilemsg=document.querySelector('.mobilemsg');
+      let phonecheck = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+
+      if(!mobile.value.match(phonecheck)){
+          mobilemsg.innerHTML="Mobile number is invalid";
+          mobilemsg.style.color="red";
+             }
+             else{
+                mobilemsg.innerHTML="Mobile number is valid";
+                mobilemsg.style.color="green";
+             }
+    });
+    address.addEventListener('input',()=>{
+      const addressmsg=document.querySelector('.addressmsg');
+      var regex = /^[a-zA-Z ]{2,30}$/;
+
+      if(!address.value.match(regex)){
+          addressmsg.innerHTML="Address is invalid";
+          addressmsg.style.color="red";
+             }
+             else{
+                addressmsg.innerHTML="Address is valid";
+                addressmsg.style.color="green";
+             }
+            });
+</script> 
+</body>
+</html>

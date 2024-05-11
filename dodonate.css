@@ -1,0 +1,33 @@
+.form-details{
+    margin-left: 18em;
+    margin-top: 2em;
+    background-color: beige;
+    width: 50%;
+    border: 1px solid;
+}
+body{
+  background-color: rgba(189, 164, 164, 0.5);
+}
+h4{
+    font-size: 32px;
+    margin: 20px 64px;
+    font-weight: bold;
+}
+.form-inner{
+    margin-left: 40px;
+}
+label{
+    display: block;
+}
+input{
+    padding: 4px 0px ;
+    margin-bottom:5px ;
+}
+.date input{
+    width: 35%;
+}
+button{
+    margin: 17px 0px 8px 150px;
+    padding: 4px 0px;
+    width: 30%;
+}

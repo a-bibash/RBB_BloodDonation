@@ -1,0 +1,27 @@
+.missioncontain{
+    height:650px;
+    background-color: #f5f5f5;
+    list-style: none;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.missioncontain h1 ,hr{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.fab{
+    margin-left:48px;
+    margin-right: -54px;
+}
+.missioncontain ul{
+    margin-left: 50px;
+    list-style: none;
+    margin-right:50px;
+}
+.missioncontain ul li{
+    padding-bottom: 3px;
+}
+.map iframe{
+    left:60%;
+    margin-top: 20px;
+}

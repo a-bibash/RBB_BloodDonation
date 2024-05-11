@@ -1,0 +1,66 @@
+.topicc h1{
+    padding: 50px 94px;
+    font-size: 48px;
+}
+.firsttitle{
+    padding: 24px 2px;
+ width: 44%;
+ border-left:5px solid red;
+ margin-left: 50px;
+ background-color: rgba(192, 192, 192, 0.644);
+}
+
+.firsttitle h5 {
+    font-size: 20px;
+    margin-top: -12px;
+    margin-left: 56px;
+}
+.firsttitle p {
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.firsttitle:hover{
+    background-color: red;
+    transition: 2s;
+    cursor: pointer;
+}
+.secondtitle{
+    padding: 24px 2px;
+ width: 44%;
+ border-left:5px solid red;
+ margin-left: 50px;
+ margin-top: 3px;
+ background-color: rgba(192, 192, 192, 0.568);
+}
+.secondtitle:hover{
+    background-color: red;
+    transition: 2s;
+    cursor: pointer;
+}
+.secondtitle h5 {
+    font-size: 20px;
+    margin-top: -12px;
+    margin-left: 56px;
+}
+.secondtitle p {
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.firsttitle h5 a{
+    color: black;
+}
+.secondtitle h5 a{
+    color: black;
+}
+.title{
+    display: inline-flex;
+    margin-bottom: 300px;
+}
+.firsttitle a{
+    text-decoration: none;
+    color: white;
+}
+.secondtitle a{
+    text-decoration: none;
+    color: white;
+}

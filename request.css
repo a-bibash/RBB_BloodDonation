@@ -1,0 +1,70 @@
+.contain{
+    border: 2px solid black;
+    height: 700px;
+    width: fit-content;
+    border-radius: 3px;
+    margin-left: 160px;
+}
+.container-box{
+    padding: 14px 0px;
+}
+.head {
+    font-size: 24px;
+    padding: 8px 0px;
+    text-align: center;
+
+    background-color: blueviolet;
+    margin-top: -14px;
+}
+hr{
+    margin: 0px 12px;
+}
+    form {
+        margin-left: 100px;
+}
+label {
+    display: inline-block;
+    width: 360px;
+    padding: 11px;
+}
+.form input {
+    font-size: 13px;
+    padding: 4px 0px;
+}
+textarea {
+    padding: 15px 0px;
+    margin-top: 15px;
+}
+.form button{
+  display: block;
+margin-left: 247px;
+padding: 7px 56px;
+margin-top: 6px;
+font-size: 16px;
+border-radius: 4px;
+border-color: aquamarine;
+}
+.form button:hover{
+    background-color: green;
+    font-size: 20px;
+}
+.lastpart{
+    text-align: center;
+    margin-top: 10px;
+}
+.lastpart a{
+    text-decoration: none;
+}
+.lastpart a:hover{
+    color: red;
+}
+.lastpart h4{
+    text-align: center;
+    margin:10px 0px;
+}
+.lastpart hr{
+    margin: 11px 130px;
+}
+.purposed{
+    margin: 4px 0px;
+}
